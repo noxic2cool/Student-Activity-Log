@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://media4.giphy.com/media/mugBTmvsPyimuPnsSb/giphy.gif?cid=790b761154f0b2f96196dd1252ab0abb0dd9b0a7734a87f1&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input   {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.ctr {
+    margin-top: 220px;
+    text-align: center;
+}
+
+.signin {
+    margin-left: 19.4px;
+}
+
+/* drowdown stylessss*/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

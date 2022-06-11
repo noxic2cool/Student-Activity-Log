@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/26/24/f3/2624f31f6db8df39a603f6e5e375db7c.gif");
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input   {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.btn {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+.signin {
+    margin-left: 19.4px;
+}
+

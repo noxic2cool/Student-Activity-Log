@@ -1,0 +1,200 @@
+h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h4{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input{
+
+    width: 300px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/26/24/f3/2624f31f6db8df39a603f6e5e375db7c.gif");
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input   {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.btn {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+.signin {
+    margin-left: 19.4px;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+
+}
+.container-2{
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.addTask{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+
+}
+.addTask > input[Type="text"]{
+    width: 90%;
+    color: cyan;
+    border: none;
+    border-bottom: 2px solid #666;
+    background: none;
+    padding: 10px;
+    font-size: 23px;
+    outline: none;
+
+}
+.addTask button{
+    margin: 0 10px;
+    background: black;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notCompleted, .Completed{
+    margin: 5px 0;
+    padding: 20px;
+}
+h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li{
+    width: 140%;
+    padding: 10px;
+    margin: 5px 0;
+    background: aquamarine;
+   font-size: 22px;
+    counter-increment: my-counter;
+}
+ol.Completed li{
+    background: lawngreen;
+}
+ol li::before{
+    content: counter(my-counter);
+    background: darkslateblue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: darkslateblue;
+    margin-right: 0.5rem;
+}
+li button{
+    float: right;
+    padding: 5px;
+    font-size: 28px;
+    line-height: 28px;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
